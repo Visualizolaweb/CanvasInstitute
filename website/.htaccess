@@ -1,0 +1,13 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteBase /
+
+RewriteRule ^canvas-institute$ index.php [L]
+RewriteRule ^about-canvas$ about.php [L]
+RewriteRule ^next-events-canvas$ events.php [L]
+RewriteRule ^members-of-the-staten-island-community-gather-for-a-peaceful-rally$ news.php?id=1 [L]
+RewriteRule ^coming-soon-page$ coming-soon.php [L]
+RewriteRule ^Local-Leaders-Hold-Community-Discussion-in-Response-to-Recent-Events-Across-the-Country$ news2.php [L]
+RewriteRule ^canvas-press$ press.php [L]
+RewriteRule ^canvas-location$ location.php [L]

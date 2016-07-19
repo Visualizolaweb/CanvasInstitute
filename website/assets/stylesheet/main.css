@@ -1,0 +1,74 @@
+header{ display: flex; margin-top: 10px;}
+
+.logotype{  width: 180px;  float: left;}
+.logotype img{ width: 100%;}
+
+nav{ background-color: transparent; color:#000; box-shadow: none; position: relative;}
+nav ul{ margin-top: 28px;}
+nav ul a{ color: inherit;}
+nav .button-collapse i{font-size: 30px;}
+
+.nextSlide, .prevSlide{ display: flex; position: absolute; z-index: 100; font-size:50px; top: 45%; color: rgba(255, 255, 255, 0.5); cursor: pointer;}
+.nextSlide{ right: 0;}
+
+.title{background-image: url("../images/Brush_1.png"); background-repeat: no-repeat; background-size: 100%; background-position:0 70px;}
+
+h1{font-stretch: ultra-condensed; font-weight: light; text-align: center; margin-bottom: 0;}
+h2{font-family: "Roboto thin"; font-weight: bold; font-size: 30px; text-align: center; margin-top: 0;}
+
+#next-event{margin-bottom: 50px;}
+#next-event img{width: 100%;}
+#next-event .date{ background-color: #455a64; color: #ffffFf; text-align: center; font-size: 20px; }
+#next-event small{line-height: 0.5; display: block; padding-bottom: 10px;}
+#next-event h3{ font-weight: bold; font-size: 20px; margin-top: 0; margin-bottom: 0;}
+#next-event .row{margin-left: 0; margin-right: 0;}
+#next-event .title-event{    height: 47px;   margin-bottom: 10px;}
+
+.text-regular{font-size: 25px;}
+
+.footer{background-image: url("../images/Brush_2.png"); background-repeat: no-repeat; background-size: 100%;}
+.footer h4{font-size: 20px; font-weight: bold; margin-bottom: 0;}
+.footer span{font-family: "Roboto thin"; font-weight: bold; font-size: 18px;}
+
+.title h1, #next-event h3, .text-regular, .footer h4{font-family: "Roboto condensed";}
+
+#frm_newsletter label{display: block; color:#000000; font-weight: bold; margin-bottom: 10px;}
+#frm_newsletter input[type=email]{border:1px solid #bbbbbb;  height: 40px; padding: 0 10px; width: 60%; margin-right: 0px; margin-bottom: 0px;}
+#frm_newsletter button{margin-left: -2%;  height: 42px; border: none; width: 33%; color: #fff; background-color: #d15327;}
+
+.social-network li{ float: left;  margin-right: 20px; font-size: 20px;}
+.social-network li a{ color: #555555;}
+
+.page p{text-align: justify;}
+.init-text{font-size: 20px; margin-top: 0; padding-top:0; font-weight: bold}
+
+.tabs .tab a{color: #000;}
+.tabs .tab a.active, .tabs .tab a:hover {background-color: #546e7a ; color: #fff;}
+.tabs .indicator{background-color: #fff;}
+
+.content-tab{padding-top: 40px; border-top:10px solid  #546e7a ; }
+#upcomingevents, #pastevents{padding-top: 40px; }
+#upcomingevents h3{margin: 10px 0;}
+#upcomingevents #next-event .row{margin-bottom: 5px;}
+
+/*Personalización Calendario*/
+.fc-content{height: 40px;}
+.fc-time{display: block;}
+
+.latest-post h5{ text-align: center; padding: 8px; margin-bottom: 0;}
+.latest-post h6{ text-transform: uppercase; font-weight: bold; }
+.latest-post ul{ margin-top: 0;}
+.latest-post li{padding: 8px; border-bottom: 1px solid #cfd8dc;}
+.latest-post li a{color: #78909c;}
+.latest-post li a:hover{color:#4fc3f7;}
+
+.news{margin-top:70px;}
+.news h3{margin-top:0; font-size:25px; font-weight: bold; font-family: "Roboto Condensed"}
+.news .date-day{background-color: #000; padding: 10px 0; text-align: center; font-size: 40px; color: #fff; font-family: "Roboto Thin"}
+.news .date{text-align: center; display: block; font-size: 15px}
+
+.news img{width: 100%;}
+.news .latest-post h5{margin-top:0; font-size: 20px; font-family: "Roboto Condensed"; font-weight: bold;}
+.content-press{border-bottom:1px solid #ccc; padding-bottom: 20px !important;}
+
+#map{width: 100%; height: 500px;}
